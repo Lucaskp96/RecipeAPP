@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recipe APP</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="title">Recipe APP</string>
+    <string name="background_img">background_img</string>
+    <string name="app_title">app_title</string>
+</resources>
