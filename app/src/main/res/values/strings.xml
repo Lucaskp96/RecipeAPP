@@ -1,7 +1,13 @@
 <resources>
+    <string name="facebook_app_id">741417626558815</string>
+    <string name="fb_login_protocol_scheme">fb741417626558815</string>
     <string name="app_name">Recipe APP</string>
     <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
     <string name="title">Recipe APP</string>
+    <string name="introduction">Get all your recipes in the palm of your hands in just a few seconds!</string>
     <string name="background_img">background_img</string>
     <string name="app_title">app_title</string>
+    <string name="login_success">Login success!</string>
+    <string name="logout">Logout</string>
 </resources>
