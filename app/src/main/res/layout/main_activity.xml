@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.recipeapp.MainActivity">
+    tools:context="com.example.recipeapp.ui.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -53,18 +53,5 @@
         app:iconSize="25dp"
         app:iconTintMode="multiply"
  />
-
-    <Button
-        android:id="@+id/google_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="70dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginBottom="55dp"
-        android:backgroundTint="#4285F4"
-        android:text="@string/sign_in_with_facebook"
-        app:icon="@drawable/logo_google"
-        app:iconSize="30dp"
-        app:iconTintMode="multiply" />
 
 </RelativeLayout>

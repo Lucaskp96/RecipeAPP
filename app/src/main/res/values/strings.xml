@@ -8,6 +8,9 @@
     <string name="introduction">Get all your recipes in the palm of your hands in just a few seconds!</string>
     <string name="background_img">background_img</string>
     <string name="app_title">app_title</string>
-    <string name="login_success">Login success!</string>
-    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="recipe">Recipe</string>
+    <string name="category">Category</string>
+    <string name="search">Search</string>
 </resources>

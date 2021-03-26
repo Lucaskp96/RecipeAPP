@@ -1,15 +1,17 @@
-package com.example.recipeapp
+package com.example.recipeapp.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.recipeapp.R
+import com.example.recipeapp.R.id
 import com.google.firebase.auth.FirebaseAuth
 import com.facebook.*
 import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
-import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
     private var firebaseAuth: FirebaseAuth?=null
@@ -20,9 +22,9 @@ class MainActivity : AppCompatActivity() {
 
         FacebookSdk.sdkInitialize(applicationContext)
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main_activity)
 
-        val btnFacebookLogin = findViewById<Button>(R.id.btn_facebook_login)
+        val btnFacebookLogin = findViewById<Button>(id.btn_facebook_login)
 
         firebaseAuth = FirebaseAuth.getInstance()
 
@@ -38,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                             startActivity(
                                 Intent(
                                     applicationContext,
-                                    AuthenticatedActivity::class.java
+                                    HomeActivity::class.java
                                 )
                             )
                         }
@@ -53,6 +55,7 @@ class MainActivity : AppCompatActivity() {
 
                     })
         }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
